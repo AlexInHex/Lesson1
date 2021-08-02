@@ -6,7 +6,13 @@ namespace Lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Game Over!!!");
+            string namePlayer;
+
+            Console.WriteLine("Введи своё имя");
+            namePlayer = Console.ReadLine();
+            
+            Console.WriteLine("Привет " + namePlayer);
+
         }
     }
 }
